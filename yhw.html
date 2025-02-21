@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách link bảo vệ</title>
+    <script>
+        function checkPassword(event, url, correctPassword) {
+            event.preventDefault();
+            let password = prompt("Nhập mật khẩu để truy cập link:");
+            if (password === correctPassword) {
+                window.location.href = url;
+            } else {
+                alert("Mật khẩu sai! Hãy thử lại.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Tài liệu SAE</h2>
+    <ul>
+        <li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/series/00044009', '78910')">Movers Reading</a></li>
+        <li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/vocabulary/series/00040010', '1111')">Flyers Speaking
+</a></li>
+        <li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/vocabulary/series/00079021', 'sae')">A2 Reading</a></li>
+    </ul>
+</body>
+</html>
