@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách link bảo vệ</title>
+    <script>
+        function checkPassword(event, url, correctPassword) {
+            event.preventDefault();
+            let password = prompt("Nhập mật khẩu để truy cập link:");
+            if (password === correctPassword) {
+                window.location.href = url;
+            } else {
+                alert("Mật khẩu sai! Hãy thử lại.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Fun For Movers Reading&Writing</h2>
+    <ul>
+        <li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000411029', 'sae1')">Fun For Movers Reading & Writing Test 1</a></li>
+        <li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000437027', 'sae2')">Fun For Movers Reading & Writing Test 2</a></li>
+        <li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000496026', 'sae3')">Fun For Movers Reading & Writing Test 3</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000153142', 'sae4')">Fun For Movers Reading & Writing Test 4</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000257025', 'sae5')">Fun For Movers Reading & Writing Test 5</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000035158', 'sae6')">Fun For Movers Reading & Writing Test 6</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000445025', 'sae7')">Fun For Movers Reading & Writing Test 7</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000360037', 'sae8')">Fun For Movers Reading & Writing Test 8</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000380028', 'sae9')">Fun For Movers Reading & Writing Test 9</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000380028', 'sae10')">Fun For Movers Reading & Writing Test 10</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000199167', 'sae11')">Fun For Movers Reading & Writing Test 11</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000338032', 'sae12')">Fun For Movers Reading & Writing Test 12</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000008292', 'sae13')">Fun For Movers Reading & Writing Test 13</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000086139', 'sae14')">Fun For Movers Reading & Writing Test 14</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000283024', 'sae15')">Fun For Movers Reading & Writing Test 15</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000292022', 'sae16')">Fun For Movers Reading & Writing Test 16</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000209030', 'sae17')">Fun For Movers Reading & Writing Test 17</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000388024', 'sae18')">Fun For Movers Reading & Writing Test 18</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000062148', 'sae19')">Fun For Movers Reading & Writing Test 19</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000311025', 'sae20')">Fun For Movers Reading & Writing Test 20</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000076136', 'sae21')">Fun For Movers Reading & Writing Test 21</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000027172', 'sae22')">Fun For Movers Reading & Writing Test 22</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000420028', 'sae23')">Fun For Movers Reading & Writing Test 23</a></li>
+	<li><a href="#" onclick="checkPassword(event, 'https://yourhomework.net/quiz/test/000000194143', 'sae24')">Fun For Movers Reading & Writing Test 24</a></li>
+    </ul>
+</body>
+</html>
